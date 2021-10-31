@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Backroads || Tour Company</title>
+    <title>Cosmic Comics || Comic Books & More</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
     <!-- font-awesome -->
@@ -16,29 +16,454 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>flexbox backroads</h1>
     <!-- header  -->
+    <header id="home">
+      <!-- navbar -->
+      <nav class="navbar">
+        <div class="nav-center">
+          <!-- nav header -->
+          <div class="nav-header">
+            <img src="./images/logo.svg" class="nav-logo" alt="" />
+            <button type="button" class="nav-toggle" id="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- end of nav header -->
+          <!-- nav header links -->
+          <ul class="nav-links" id="nav-links">
+            <!-- single link -->
+            <li>
+              <a href="#home" class="nav-link scroll-link">home</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#about" class="nav-link scroll-link">about</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#services" class="nav-link scroll-link">services</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#featured" class="nav-link scroll-link">featured</a>
+            </li>
+            <!-- end of single link -->
+            <!-- single link -->
+            <li>
+              <a href="#gallery" class="nav-link scroll-link">gallery</a>
+            </li>
+            <!-- end of single link -->
+          </ul>
+          <!-- end of nav header links -->
+          <!-- nav icons -->
+          <ul class="nav-icons">
+            <!-- single icon -->
+            <li>
+              <a href="https://www.twitter.com" target="blank" class="nav-icon">
+                <i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a href="https://www.twitter.com" target="blank" class="nav-icon">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li>
+              <a href="https://www.twitter.com" target="blank" class="nav-icon">
+                <i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+          </ul>
+          <!-- end of nav icons -->
+        </div>
+      </nav>
+      <!-- hero -->
+      <div class="hero">
+        <div class="hero-banner">
+          <h1>Find your favorites</h1>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis
+            sunt harum recusandae saepe quis ipsum.
+          </p>
+          <a href="#featured" class="btn hero-btn scroll-link"
+            >enter wormhole</a
+          >
+        </div>
+      </div>
+    </header>
     <!-- end of header  -->
 
     <!-- about section -->
+    <section class="section" id="about">
+      <!-- section-title -->
+      <div class="section-title">
+        <h2>about <span>Cosmic Comics</span></h2>
+      </div>
+      <!-- end of section-title -->
+      <div class="section-center about-center">
+        <!-- about img wrapper -->
+        <article class="about-img">
+          <img
+            src="./images/about.jpg"
+            class="about-photo"
+            alt="display table"
+          />
+        </article>
+        <!-- about info -->
+        <article class="about-info">
+          <h3>all the best back issues</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            reprehenderit ipsam necessitatibus sed libero dignissimos fugit
+            nesciunt sequi corporis harum.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis
+            reprehenderit ipsam necessitatibus sed libero dignissimos fugit
+            nesciunt sequi corporis harum.
+          </p>
+          <a href="#" class="btn">read more</a>
+        </article>
+      </div>
+    </section>
     <!-- end of about section -->
 
     <!-- services -->
+    <section class="section services" id="services">
+      <!-- section-title -->
+      <div class="section-title">
+        <h2>our <span>mission</span></h2>
+      </div>
+      <!-- end of section-title -->
+      <div class="section-center services-center">
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-wallet fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">most bang for your buck</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum earum
+              quos consectetur deleniti. Nostrum, reprehenderit.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-book-reader fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">endless reading</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum earum
+              quos consectetur deleniti. Nostrum, reprehenderit.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon">
+            <i class="fas fa-mask fa-fw"></i>
+          </span>
+          <div class="service-info">
+            <h4 class="service-title">collect like a hero</h4>
+            <p class="service-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum earum
+              quos consectetur deleniti. Nostrum, reprehenderit.
+            </p>
+          </div>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
     <!--end services -->
 
-    <!-- featured tours -->
-    <!-- end of featured tours -->
+    <!-- featured comics -->
+    <section class="section" id="featured">
+      <!-- section-title -->
+      <div class="section-title">
+        <h2>Your <span>favorite Comics</span></h2>
+      </div>
+      <!-- end of section-title -->
+      <!-- featured center -->
+      <div class="section-center featured-center">
+        <!-- single comic -->
+        <article class="comic-card">
+          <div class="comic-img-container">
+            <img src="./images/comic-1.jpg" class="comic-img" alt="" />
+            <p class="comic-hero">superman</p>
+          </div>
+          <!-- comic info -->
+          <div class="comic-info">
+            <div class="comic-title">
+              <h4>Man of Steel</h4>
+              <p>1960s-90s</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              molestias magni itaque dolorum repellendus doloribus aperiam ea
+              laudantium quisquam cupiditate?
+            </p>
+            <div class="comic-footer">
+              <p>
+                <span> <i class="fas fa-book"></i>DC Comics </span>
+              </p>
+              <p>From $1.59</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single comic -->
+        <!-- single comic -->
+        <article class="comic-card">
+          <div class="comic-img-container">
+            <img src="./images/comic-2.jpg" class="comic-img" alt="" />
+            <p class="comic-hero">batman</p>
+          </div>
+          <!-- comic info -->
+          <div class="comic-info">
+            <div class="comic-title">
+              <h4>The Dark Knight</h4>
+              <p>1970s-Present</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              molestias magni itaque dolorum repellendus doloribus aperiam ea
+              laudantium quisquam cupiditate?
+            </p>
+            <div class="comic-footer">
+              <p>
+                <span> <i class="fas fa-book"></i>DC Comics </span>
+              </p>
+              <p>From $1.19</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single comic -->
+        <!-- single comic -->
+        <article class="comic-card">
+          <div class="comic-img-container">
+            <img src="./images/comic-3.jpg" class="comic-img" alt="" />
+            <p class="comic-hero">x-men</p>
+          </div>
+          <!-- comic info -->
+          <div class="comic-info">
+            <div class="comic-title">
+              <h4>Uncanny Mutants</h4>
+              <p>1980s-90s</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              molestias magni itaque dolorum repellendus doloribus aperiam ea
+              laudantium quisquam cupiditate?
+            </p>
+            <div class="comic-footer">
+              <p>
+                <span> <i class="fas fa-book"></i>Marvel Comics </span>
+              </p>
+              <p>From $1.79</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single comic -->
+        <!-- single comic -->
+        <article class="comic-card">
+          <div class="comic-img-container">
+            <img src="./images/comic-4.jpg" class="comic-img" alt="" />
+            <p class="comic-hero">catwoman</p>
+          </div>
+          <!-- comic info -->
+          <div class="comic-info">
+            <div class="comic-title">
+              <h4>Selena's Secret</h4>
+              <p>1990s</p>
+            </div>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia
+              molestias magni itaque dolorum repellendus doloribus aperiam ea
+              laudantium quisquam cupiditate?
+            </p>
+            <div class="comic-footer">
+              <p>
+                <span> <i class="fas fa-book"></i>DC Comics </span>
+              </p>
+              <p>From $.99</p>
+            </div>
+          </div>
+        </article>
+        <!-- end of single comic -->
+      </div>
+      <div class="comic-btn">
+        <a href="#" class="btn">All comics</a>
+      </div>
+    </section>
+    <!-- end of featured comics -->
 
     <!-- contact -->
-
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <!-- contact title -->
+        <article class="contact-title">
+          <h3>want latest comic arrivals and updates?</h3>
+          <p>Sign up for our cosmic newsletter and stay up to date</p>
+        </article>
+        <!-- contact form -->
+        <form class="contact-form">
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="your email"
+          />
+          <button type="submit" class="btn-submit">submit</button>
+        </form>
+      </div>
+    </section>
     <!-- end of contact -->
 
     <!-- gallery  -->
-
+    <section id="gallery">
+      <div class="gallery-center">
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-1.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-2.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-3.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-4.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-5.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-6.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-7.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+        <!-- single item -->
+        <article class="gallery-img-container">
+          <img src="./images/comic-8.jpg" class="gallery-img" alt="" />
+          <a href="#" class="gallery-icon">
+            <i class="fas fa-search"></i>
+          </a>
+        </article>
+        <!-- end of single item -->
+      </div>
+    </section>
     <!-- end of gallery  -->
 
     <!-- footer -->
-
+    <footer class="section footer">
+      <!-- footer-links -->
+      <ul class="footer-links">
+        <!-- single link -->
+        <li>
+          <a href="#home" class="footer-link scroll-link">home</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#about" class="footer-link scroll-link">about</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#services" class="footer-link scroll-link">services</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#featured" class="footer-link scroll-link">featured</a>
+        </li>
+        <!-- end of single link -->
+        <!-- single link -->
+        <li>
+          <a href="#gallery" class="footer-link scroll-link">gallery</a>
+        </li>
+        <!-- end of single link -->
+      </ul>
+      <!-- end of footer links -->
+      <!-- footer icons -->
+      <ul class="footer-icons">
+        <!-- single icon -->
+        <li>
+          <a href="https://www.twitter.com" target="blank" class="footer-icon">
+            <i class="fab fa-facebook"></i>
+          </a>
+        </li>
+        <!-- end of single icon -->
+        <!-- single icon -->
+        <li>
+          <a href="https://www.twitter.com" target="blank" class="footer-icon">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </li>
+        <!-- end of single icon -->
+        <!-- single icon -->
+        <li>
+          <a href="https://www.twitter.com" target="blank" class="footer-icon">
+            <i class="fab fa-squarespace"></i>
+          </a>
+        </li>
+        <!-- end of single icon -->
+      </ul>
+      <!-- end of footer icons -->
+      <p class="copyright">
+        copyright &copy;Cosmic Comics <span id="date"></span>, all rights
+        reserved
+      </p>
+    </footer>
     <!-- js -->
     <script src="./js/app.js"></script>
   </body>
